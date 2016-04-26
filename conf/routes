@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /index                          controllers.Application.index
+GET     /db                             controllers.Application.db
+GET     /appendix/id/:id                controllers.Application.appendix(id:String)
+GET     /appendix/all                   controllers.Application.appendixall

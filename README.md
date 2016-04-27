@@ -1,5 +1,5 @@
 # Play-Slick
-Using Play and Slick
+Using Play and Slick connect to database and auto generate code from table.
 
 ## Introduction
 This is a project using Play and Slick build a simple RESTful service.
